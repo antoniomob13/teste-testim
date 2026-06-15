@@ -1,9 +1,9 @@
 document.getElementById('loginForm')?.addEventListener('submit', function(e) {
   e.preventDefault();
-  const email = document.getElementById('email').value;
+  const text = document.getElementById('text').value;
   const senha = document.getElementById('password').value;
 
-  if (email === 'teste@teste.com' && senha === '123456') {
+  if (text === 'teste' && senha === '123456') {
     alert('Login bem-sucedido!');
     window.location.href = 'dashboard.html';
   } else {
