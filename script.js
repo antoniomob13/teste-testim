@@ -3,7 +3,7 @@ document.getElementById('loginForm')?.addEventListener('submit', function(e) {
   const text = document.getElementById('text').value;
   const senha = document.getElementById('password').value;
 
-  if (text === 'teste' && senha === '123456') {
+  if (text === 'teste@teste.com' && senha === '123456') {
     alert('Login bem-sucedido!');
     window.location.href = 'dashboard.html';
   } else {
